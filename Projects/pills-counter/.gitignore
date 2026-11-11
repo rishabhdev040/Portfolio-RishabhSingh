@@ -1,0 +1,20 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+
+# Downloaded datasets and processed local images
+datasets/
+raw-data/
+data/
+
+# YOLO training, validation, and prediction outputs
+runs/
+*.pt
+*.onnx
