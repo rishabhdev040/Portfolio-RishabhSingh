@@ -11,8 +11,8 @@ I am a Computer Science graduate specializing in AI/ML with practical experience
 
 - **Email:** rishabhsingh.dev0@gmail.com
 - **Phone:** +91-9399235097
-- **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com)
-- **GitHub:** [github.com/your-username](https://github.com)
+- **LinkedIn:** [linkedin.com/in/rishabhdev040](https://linkedin.com/in/rishabhdev040)
+- **GitHub:** [github.com/rishabhdev040](https://github.com/rishabhdev040)
 
 ---
 
