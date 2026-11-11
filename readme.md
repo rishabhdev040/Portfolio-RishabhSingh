@@ -20,7 +20,7 @@ I am a Computer Science graduate specializing in AI/ML with practical experience
 
 | Project | Description | Tech Stack | Source Code |
 | :--- | :--- | :--- | :--- |
-| **Automatic Pill Counter** | Real-time video processing pipeline utilizing YOLOv8 object detection to identify and count pills automatically with a Streamlit dashboard. | OpenCV, YOLOv8, NumPy, Streamlit | [View Code](./projects/automatic-pill-counter) |
+| **Pills Detection & Counting (YOLOv8)** | Image-based pill detection and localization using a YOLOv8 model trained on a Roboflow dataset. Detected bounding boxes can be used for per-image counts. | Python, Ultralytics YOLOv8, PyTorch, Roboflow, Pillow | [View Code](./Projects/pills-counter) |
 | **PDF Chatbot (RAG)** | Context-sensitive question-answering system using ChromaDB for vector indexing and LangChain to query uploaded PDF documents. | LangChain, ChromaDB, Streamlit, Python | [View Code](./projects/pdf-chatbot) |
 | **LLM Fine-Tuning** | Parameter-efficient fine-tuning (PEFT) implementations optimizing large language models using LoRA and QLoRA for reduced memory footprints. | PyTorch, Hugging Face, PEFT, LoRA/QLoRA | [View Code](./projects/llm-fine-tuning) |
 | **MCP Tool Server** | Model Context Protocol server enabling LLM agents to interface with external tools and resources with Pydantic schema validation. | FastMCP, MCP, Pydantic, Python | [View Code](./projects/mcp-tool-server) |
@@ -48,14 +48,12 @@ I am a Computer Science graduate specializing in AI/ML with practical experience
 ```text
 ├── resume/
 │   └── Rishabh_Singh_Resume.pdf
-├── projects/
-│   ├── automatic-pill-counter/
-│   ├── pdf-chatbot/
-│   ├── llm-fine-tuning/
-│   ├── mcp-tool-server/
-│   ├── keyprint/
-│   ├── sentiment-analysis/
-│   ├── digit-recognition/
-│   ├── ecommerce-backend/
-│   └── customer-segmentation/
-└── README.md
+├── Projects/
+│   ├── README.md
+│   └── pills-counter/
+│       ├── README.md
+│       ├── raw_images_processing.py
+│       ├── requirements.txt
+│       ├── yolo_training.ipynb
+│       └── .gitignore
+└── readme.md
