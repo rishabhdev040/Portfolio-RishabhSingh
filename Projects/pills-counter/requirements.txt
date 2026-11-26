@@ -3,3 +3,4 @@ ultralytics==8.0.20
 Pillow>=9.0
 pillow-avif-plugin
 ipykernel
+streamlit>=1.35.0
